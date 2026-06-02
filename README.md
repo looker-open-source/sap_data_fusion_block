@@ -3,6 +3,8 @@
 ___
 # Readme: SAP (Cloud Data Fusion) Looker Block
 
+This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+
 ## This block has been released in public preview, we are actively looking for opportunities to collect feedback and refine the LookML, as well as dashboards. If you are interested in helping us make this block better please email us at sap-cdf-looker-block-feedback@google.com 
 
 ### What does this Block do for me?
@@ -18,9 +20,8 @@ This block is modeled on the BigQuery Cloud Data Fusion SAP export schema, SAP T
 - SAP – Order To Cash - provides a comprehensive view designed help with order management, highlight gaps in order fulfillment, and report order profit and loss
 - SAP – Procure To Pay – provides a holistic view designed to help procurement leaders maximize savings while optimizing supplier performance and managing delivery risks
 - Order to Cash Dashboard: Used by Execs for a high level overview. This dashboard shows general delivery performance, monitors manufacturer output, and highlights customers and suppliers that need attention to improve end to end satisfaction. Click on any of the top line measures to dive into the relevant granular dashboards.
- 
+
 - Procure to Pay Dashboard: Used by Execs for a high level overview. This dashboard shows general inventory management and performance, allowing the user to track product life cycle from procurement of raw materials to the production of products.  Click on any of the top line measures to dive into the relevant granular dashboards.
- 
 
 ### Required Customization
 - sql_table_name - in each of the views, the sql_table_name parameter must be changed to match your table names.
